@@ -28,6 +28,7 @@ To identify the most influential factors affecting student dropout.
 
 # Results
 The performance of the developed models was evaluated using accuracy, precision, recall and F1-score. 
+
 Accuracy: 0.75
               precision    recall  f1-score   support
 
@@ -37,6 +38,8 @@ Accuracy: 0.75
     accuracy                           0.75       160
    macro avg       0.75      0.74      0.74       160
 weighted avg       0.75      0.75      0.75       160
+
+Confussion Metrix
 
 [[47 26]
  [14 73]]
