@@ -33,6 +33,8 @@ The tuned XGBoost model produced the following results:
 
 Metric Score Accuracy 75% Precision 74% Recall 84% F1-score 78%
 
+<img width="1037" height="547" alt="image" src="https://github.com/user-attachments/assets/7d259a33-a724-45e8-8a11-70fa66936c6b" />
+
 Feature importance analysis identified burnout level, year of study, attendance percentage, family income bracket and age as the most influential factors in predicting student dropout.
 
 # Discussion
