@@ -27,7 +27,21 @@ To identify the most influential factors affecting student dropout.
 <img width="362" height="559" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/33d502b1-02c4-456b-9f80-627da1cb4692" />
 
 # Results
-The performance of the developed models was evaluated using accuracy, precision, recall and F1-score. The baseline Multilayer Perceptron (MLP) achieved an accuracy of 69%, while the baseline XGBoost model improved the accuracy to 69.4%. After hyperparameter tuning using GridSearchCV, the XGBoost model achieved the best performance with an accuracy of 75%.
+The performance of the developed models was evaluated using accuracy, precision, recall and F1-score. 
+Accuracy: 0.75
+              precision    recall  f1-score   support
+
+           0       0.77      0.64      0.70        73
+           1       0.74      0.84      0.78        87
+
+    accuracy                           0.75       160
+   macro avg       0.75      0.74      0.74       160
+weighted avg       0.75      0.75      0.75       160
+
+[[47 26]
+ [14 73]]
+
+The baseline Multilayer Perceptron (MLP) achieved an accuracy of 69%, while the baseline XGBoost model improved the accuracy to 69.4%. After hyperparameter tuning using GridSearchCV, the XGBoost model achieved the best performance with an accuracy of 75%.
 
 The tuned XGBoost model produced the following results:
 
